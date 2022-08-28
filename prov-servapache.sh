@@ -6,7 +6,7 @@ apt-get upgrade -y
 apt-get install unzip -y
 apt-get install apache2 -y
 
-echo "baixando arquivos da aplicação web"
+echo "configuração de arquivos da aplicação web"
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 unzip main.zip
